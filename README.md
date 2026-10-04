@@ -32,4 +32,19 @@ spam-detection/
 └── requirements.txt
 ```
 
+---
+
+## How to download and run
+
+```bash
+git clone https://github.com/HAMADA-LAB/spam-detection.git
+cd spam-detection
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Open the URL Streamlit shows (usually http://localhost:8501).
+
 Trained primarily on SMS-style messages.
